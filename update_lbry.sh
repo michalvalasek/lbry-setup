@@ -68,7 +68,7 @@ UPDATELBRYCRD=0
 
 if [ -e bin/lbrycrd.tar.gz ]; then
     LBRYCRDHASHSUM=`md5sum bin/lbrycrd.tar.gz | awk '{print $1}'`
-    if [ ! "$LBRYCRDHASHSUM" = "8adba4d53751636617853519e487ffeb" ] && [ ! "$LBRYCRDHASHSUM" = "84501f4eea172fc64f0b97e2956da0e1" ]; then
+    if [ ! "$LBRYCRDHASHSUM" = "5d876e2e2713c1f063ddc2ee46ad59f6" ] && [ ! "$LBRYCRDHASHSUM" = "79508c039a28aff329ccb49dd3d41691" ]; then
         UPDATELBRYCRD=1
     fi
 else
