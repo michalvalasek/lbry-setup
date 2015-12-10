@@ -96,7 +96,7 @@ Run the following:
 2.  Build lbrycrd:
 
         sudo ./autogen.sh
-        sudo ./configure
+        sudo ./configure LDFLAGS="-L/usr/local/opt/openssl/lib" CPPFLAGS="-I/usr/local/opt/openssl/include
         sudo make
 
 3.  It is also a good idea to build and run the unit tests:
