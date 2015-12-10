@@ -13,7 +13,7 @@ exec 2> >(tee -a script_setup.log >&2)
 
 ROOT=.
 GIT_URL_ROOT="https://github.com/lbryio/"
-PACKAGES="git"
+PACKAGES="git cython"
 
 #install/update requirements
 if hash apt-get 2>/dev/null; then
